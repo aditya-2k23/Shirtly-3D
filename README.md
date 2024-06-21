@@ -19,7 +19,7 @@ This is a 3D website that uses AI to generate 3D textures for objects/images. Al
 First, Clone the repository:
 
 ```bash
-git clone #link-here
+git clone https://github.com/aditya-2k23/Shirtly-3D
 ```
 
 Then, install the dependencies:
