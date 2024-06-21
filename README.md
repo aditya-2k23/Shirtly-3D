@@ -1,0 +1,46 @@
+# AI-Powered | 3D website
+
+This is a 3D website that uses AI to generate 3D textures for objects/images. Also it uses 3D models and animations to display the images in 3D space.
+
+<!-- Check out the [live demo](https://ai-powered-3d-website.vercel.app/). -->
+
+## Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Three.js](https://threejs.org/)
+- [React-Three-Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Valtio](https://valtio.pmnd.rs/docs/introduction/getting-started)
+- [React-Color](https://casesandberg.github.io/react-color/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## Getting Started
+
+First, Clone the repository:
+
+```bash
+git clone #link-here
+```
+
+Then, install the dependencies:
+
+```bash
+npm install
+```
+
+Finally, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
