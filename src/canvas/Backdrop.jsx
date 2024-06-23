@@ -1,7 +1,5 @@
 import { useRef } from "react";
 import { AccumulativeShadows, RandomizedLight } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
-import { easing } from "maath";
 
 const Backdrop = () => {
   const shadows = useRef();
@@ -13,7 +11,7 @@ const Backdrop = () => {
       frames={60}
       alphaTest={0.85}
       scale={10}
-      rotate={[Math.PI / 2, 0, 0]}
+      rotation={[Math.PI / 2, 0, 0]}
       position={[0, 0, -0.14]}
     >
       <RandomizedLight
