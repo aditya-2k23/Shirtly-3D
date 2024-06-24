@@ -2,9 +2,11 @@
 
 This is a 3D website that uses AI to generate 3D textures for objects/images. Also it uses 3D models and animations to display the images in 3D space.
 
-<!-- Check out the [live demo](https://ai-powered-3d-website.vercel.app/). -->
+Check out the [live demo](https://ai-powered-3d-website.vercel.app/).
 
 ## Tech Stack
+
+#### Frontend
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -13,6 +15,17 @@ This is a 3D website that uses AI to generate 3D textures for objects/images. Al
 - [Valtio](https://valtio.pmnd.rs/docs/introduction/getting-started)
 - [React-Color](https://casesandberg.github.io/react-color/)
 - [Framer Motion](https://www.framer.com/motion/)
+
+#### Backend
+
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Mongoose](https://mongoosejs.com/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [OpenAI](https://www.npmjs.com/package/openai)
 
 ## Getting Started
 
