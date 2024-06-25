@@ -9,6 +9,7 @@ import {
   headTextAnimation,
   slideAnimation,
 } from "../config/motion";
+import SocialLinks from "../components/SocialLinks";
 
 const Home = () => {
   const snap = useSnapshot(state);
@@ -17,15 +18,18 @@ const Home = () => {
     <AnimatePresence>
       {snap.intro && (
         <motion.section className="home" {...slideAnimation("left")}>
-          <motion.header {...slideAnimation("down")}>
+          <motion.header {...headContainerAnimation}>
             <img
-              src="./threejs.png"
+              src="./aditya.png"
               alt="logo"
-              className="w-8 h-8 object-contain"
+              className="w-8 h-8 object-contain hover:scale-150 transition-all"
             />
           </motion.header>
 
-          <motion.div className="home-content" {...headContainerAnimation}>
+          <motion.div
+            className="home-content cursor-default"
+            {...headContainerAnimation}
+          >
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
                 LET&apos;S <br className="xl:block hidden" /> DO IT.
@@ -49,6 +53,8 @@ const Home = () => {
               />
             </motion.div>
           </motion.div>
+
+          <SocialLinks />
         </motion.section>
       )}
     </AnimatePresence>
