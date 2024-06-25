@@ -44,6 +44,12 @@ First, Clone the repository:
 git clone https://github.com/aditya-2k23/Shirtly-3D
 ```
 
+Change the directory:
+
+```bash
+cd client
+```
+
 Then, install the dependencies:
 
 ```bash
