@@ -1,12 +1,21 @@
-# AI-Powered | 3D website
+# 3D Animated Website
 
-This is a 3D website that uses AI to generate 3D textures for objects/images. Also it uses 3D models and animations to display the images in 3D space.
+🌟This is a 3D website that can be used to generate colors to a T-Shirt and users can apply different textures and logos by uploading their own files.  
+✅Also it uses 3D models and animations to display the images in 3D space.
 
-Check out the [live demo](https://ai-powered-3d-website.vercel.app/).
+🔴Check out the [live demo](https://ai-powered-3d-website.vercel.app/). 🌐
 
-## Tech Stack
+![Home](/client/public/Home.png)
 
-#### Frontend
+---
+
+![Customizer](/client/public/Customizer.png)
+
+📝Note- AI Generator is a work in progress...
+
+## 👨‍💻 Tech Stack
+
+#### 🖼️ Frontend
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -16,7 +25,7 @@ Check out the [live demo](https://ai-powered-3d-website.vercel.app/).
 - [React-Color](https://casesandberg.github.io/react-color/)
 - [Framer Motion](https://www.framer.com/motion/)
 
-#### Backend
+#### ⚙️ Backend
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
@@ -27,7 +36,7 @@ Check out the [live demo](https://ai-powered-3d-website.vercel.app/).
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [OpenAI](https://www.npmjs.com/package/openai)
 
-## Getting Started
+## 🪧 Getting Started
 
 First, Clone the repository:
 
