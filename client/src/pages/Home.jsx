@@ -18,12 +18,16 @@ const Home = () => {
     <AnimatePresence>
       {snap.intro && (
         <motion.section className="home" {...slideAnimation("left")}>
-          <motion.header {...headContainerAnimation}>
+          <motion.header
+            className="flex gap-4 items-center justify-center"
+            {...headContainerAnimation}
+          >
             <img
               src="./aditya.png"
               alt="logo"
               className="w-8 h-8 object-contain hover:scale-150 transition-all"
             />
+            <p className="text-3xl font-bold">Shirtly 3D</p>
           </motion.header>
 
           <motion.div
