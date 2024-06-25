@@ -1,17 +1,28 @@
-import CustomButton from "./CustomButton";
+// import CustomButton from "./CustomButton";
 
-const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
-  return (
-    <div className="aipicker-container">
-      <textarea
-        placeholder="Ask AI..."
+const AIPicker = () =>
+  //   {
+  //   prompt,
+  //   setPrompt,
+  //   generatingImg,
+  //   handleSubmit
+  // }
+  {
+    return (
+      <div className="aipicker-container cursor-not-allowed justify-center">
+        <h5 className="text-bold text-center">Pardon the inconvenience</h5>
+        <p className="text-center text-neutral-600">
+          This feature is under development. <br /> Please check back later...
+        </p>
+        {/* <textarea
+        placeholder="Ask AI for texture or a logo..."
         rows={5}
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
         className="aipicker-textarea"
-      />
-      <div className="flex flex-wrap gap-3">
-        {generatingImg ? (
+      /> */}
+        {/* <div className="flex flex-wrap gap-3">
+          {generatingImg ? (
           <CustomButton
             type="outline"
             title="Asking AI..."
@@ -33,9 +44,9 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
             />
           </>
         )}
+        </div> */}
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default AIPicker;
